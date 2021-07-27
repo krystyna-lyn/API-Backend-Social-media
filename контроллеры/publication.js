@@ -173,7 +173,6 @@ function uploadPubImage(req, res){
     });
     }
 module.exports={
-    prueba,
     savePublication,
     getPublications,
     getPublicationsUser,
