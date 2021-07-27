@@ -9,10 +9,6 @@ var Publication=require('../models/publication');
 var User=require('../models/user');
 var Follow=require('../models/follow');
 
-function prueba(req,res){
-    res.status(200).send({message: 'Hola desde el controlador Publication'});
-}
-
 function savePublication(req,res){
     var params=req.body;
 
